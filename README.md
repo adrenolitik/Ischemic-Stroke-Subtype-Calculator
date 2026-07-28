@@ -19,7 +19,7 @@
 
 ## URLs
 - **Production**: https://105ad20f-6014-4bff-9c89-d8b312d0e706.vip.gensparksite.com
-- **GitHub**: https://github.com/adrenolitik/-
+- **GitHub**: https://github.com/adrenolitik/Ischemic-Stroke-Subtype-Calculator
 
 ## Архитектура и данные
 - **Стек**: React 19 + TypeScript + Vite + TailwindCSS 4, статическая сборка на Cloudflare Pages
