@@ -18,7 +18,7 @@
 - ✅ Полностью клиентское приложение — не требует сервера, БД или внешних API, работает без VPN
 
 ## URLs
-- **Production**: (укажите после деплоя)
+- **Production**: https://105ad20f-6014-4bff-9c89-d8b312d0e706.vip.gensparksite.com
 - **GitHub**: https://github.com/adrenolitik/-
 
 ## Архитектура и данные
@@ -35,8 +35,8 @@
 5. Справочник по классификациям TOAST и OCSP доступен по кнопке «Справочник» в шапке
 
 ## Развёртывание
-- **Платформа**: Cloudflare Pages (статический сайт, без Workers-функций)
-- **Статус**: ✅ Активен
+- **Платформа**: Cloudflare Workers for Platforms (управляемый Genspark Cloudflare-аккаунт), статическая сборка (assets-only Worker)
+- **Статус**: ✅ Активен, доступен без VPN из любой точки (проверено — приложение полностью клиентское, никаких вызовов Google AI Studio/Gemini API не осталось)
 - **Технологии**: React 19 + TypeScript + Vite 6 + TailwindCSS 4
 - **Локальный запуск**:
   ```bash
